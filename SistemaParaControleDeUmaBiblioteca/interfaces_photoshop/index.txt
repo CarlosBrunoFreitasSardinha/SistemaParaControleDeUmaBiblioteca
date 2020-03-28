@@ -1,0 +1,263 @@
+<html>
+<head>
+<title>index_2</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<!-- ImageReady Slices (index_2.psd) -->
+<table id="Table_01" width="801" height="901" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td colspan="5" rowspan="2">
+			<img src="images/index_01.gif" width="88" height="40" alt=""></td>
+		<td colspan="2" rowspan="2">
+			<img src="images/index_02.gif" width="121" height="40" alt=""></td>
+		<td colspan="4" rowspan="2">
+			<img src="images/index_03.gif" width="112" height="40" alt=""></td>
+		<td rowspan="2">
+			<img src="images/index_04.gif" width="108" height="40" alt=""></td>
+		<td rowspan="2">
+			<img src="images/index_05.gif" width="56" height="40" alt=""></td>
+		<td colspan="2">
+			<img src="images/index_06.gif" width="251" height="39" alt=""></td>
+		<td colspan="2">
+			<img src="images/index_07.gif" width="64" height="39" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="39" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="3" rowspan="2">
+			<img src="images/index_08.gif" width="252" height="105" alt=""></td>
+		<td rowspan="2">
+			<img src="images/index_09.gif" width="63" height="105" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="1" alt=""></td>
+	</tr>
+	<tr>
+		<td>
+			<img src="images/index_10.gif" width="21" height="104" alt=""></td>
+		<td colspan="12">
+			<img src="images/index_11.gif" width="464" height="104" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="104" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="6">
+			<img src="images/index_12.gif" width="201" height="38" alt=""></td>
+		<td colspan="4">
+			<img src="images/index_13.gif" width="112" height="38" alt=""></td>
+		<td colspan="4">
+			<img src="images/index_14.gif" width="274" height="38" alt=""></td>
+		<td colspan="3">
+			<img src="images/index_15.gif" width="213" height="38" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="38" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="17">
+			<img src="images/index_16.gif" width="800" height="11" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="11" alt=""></td>
+	</tr>
+	<tr valign="bottom">
+		<td colspan="3" rowspan="2">
+			<img src="images/index_17.gif" width="27" height="53" alt=""></td>
+		<td colspan="6">
+			<img src="images/index_18.gif" width="212" height="25" alt=""></td>
+		<td colspan="8" rowspan="3" background="images/index_19.gif" width="561" height="70">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		
+		<?php
+		$acao=$_REQUEST['acao'];
+		if($acao=='') echo'Home';
+		if($acao=='1') echo'Emprestimo';
+		if($acao=='2') echo'Cadastro livro';
+		if($acao=='3') echo'Cadastro CD';
+		if($acao=='3') echo'Cadastro DVD';
+		if($acao=='4') echo'Cadastro folhetos';
+		if($acao=='5') echo'Cadastro Anuarios';
+		if($acao=='5') echo'Cadastro Relatorios';
+		
+		?>		</td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="25" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="6">
+			<a href="index.php"><img src="images/index_20.gif" alt="" width="212" height="28" border="0"></a></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="28" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="2" rowspan="8">
+			<img src="images/index_21.gif" width="26" height="167" alt=""></td>
+		<td colspan="7" rowspan="2"><a href="index.php?acao=1"><img src="images/index_22.gif" alt="" width="213" height="30" border="0" /></a></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="17" alt=""></td>
+	</tr>
+	<tr valign="top">
+		<td colspan="8" rowspan="17">
+		<?php
+		$acao=$_REQUEST['acao'];
+			if ($acao=='')echo "<img src=\"images/index_23.gif\" width=\"561\" height=\"569\">";
+			else if($acao=='1')include("formularios/formulario_emprestimo.php");
+			else if($acao=='2')include("formularios/formulario_livro.php");
+			else if($acao=='3')include("formularios/formulario_cd-dvd-fita_video.php");
+			else if($acao=='4')include("formularios/formulario_foheto.php");
+			else if($acao=='5')include("formularios/formulario_anuarios_rlatorios.php");
+			?>			</td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="13" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="7">
+			<img src="images/index_24.gif" width="213" height="33" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="33" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="7">
+			<img src="images/index_25.gif" width="213" height="28" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="28" alt=""></td>
+	</tr>
+	<tr>
+		<td>
+			<img src="images/index_26.gif" width="1" height="2" alt=""></td>
+		<td colspan="5" rowspan="2">
+			<img src="images/index_27.gif" width="211" height="30" alt=""></td>
+		<td>
+			<img src="images/index_28.gif" width="1" height="2" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="2" alt=""></td>
+	</tr>
+	<tr>
+		<td rowspan="2">
+			<img src="images/index_29.gif" width="1" height="59" alt=""></td>
+		<td>
+			<img src="images/index_30.gif" width="1" height="28" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="28" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="6">
+			<img src="images/index_31.gif" width="212" height="31" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="31" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="7">
+			<img src="images/index_32.gif" width="213" height="15" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="15" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="9">
+			<img src="images/index_33.gif" width="239" height="40" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="40" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="9">
+			<img src="images/index_34.gif" width="239" height="32" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="32" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="4" rowspan="6">
+			<img src="images/index_35.gif" width="55" height="172" alt=""></td>
+		<td colspan="5">
+			<a href="index.php?acao=2"><img src="images/index_36.gif" alt="" width="184" height="29" border="0"></a></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="29" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="5">
+			<a href="index.php?acao=3"><img src="images/index_37.gif" alt="" width="184" height="32" border="0"></a></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="32" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="5">
+			<a href="index.php?acao=3"><img src="images/index_38.gif" alt="" width="184" height="23" border="0"></a></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="23" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="5">
+			<a href="index.php?acao=4"><img src="images/index_39.gif" alt="" width="184" height="25" border="0"></a></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="25" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="5">
+			<a href="index.php?acao=5"><img src="images/index_40.gif" alt="" width="184" height="26" border="0"></a></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="26" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="4"><a href="index.php?acao=5"><img src="images/index_41.gif" alt="" width="183" height="37" border="0" /></a></td>
+		<td>
+			<img src="images/index_42.gif" width="1" height="37" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="37" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="8">
+			<img src="images/index_43.gif" width="238" height="29" alt=""></td>
+		<td rowspan="2">
+			<img src="images/index_44.gif" width="1" height="175" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="29" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="8">
+			<img src="images/index_45.gif" width="238" height="146" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="146" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="17">
+			<img src="images/index_46.gif" width="800" height="68" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="68" alt=""></td>
+	</tr>
+	<tr>
+		<td>
+			<img src="images/spacer.gif" width="21" height="1" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="5" height="1" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="1" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="28" height="1" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="33" height="1" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="113" height="1" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="8" height="1" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="29" height="1" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="1" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="74" height="1" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="8" height="1" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="108" height="1" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="56" height="1" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="102" height="1" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="149" height="1" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="1" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="63" height="1" alt=""></td>
+		<td></td>
+	</tr>
+</table>
+<!-- End ImageReady Slices -->
+</body>
+</html>

@@ -1,0 +1,73 @@
+/* CSS Document */
+a{
+text-decoration:none;
+color:#777;
+}
+.linksessao{
+	color:#FFFFFF;
+	}
+	#fil{
+	background-repeat:no-repeat;
+	background-image:url("html/topo/topo.gif");
+	}
+	#tab{
+	border:0px;
+	border-bottom:0px;
+	border-top:0px;
+	border-left: 0px;
+	border-right: 0px;
+	border-spacing: 0px;
+	margin: 0px;
+	margin-bottom: 0px;
+	margin-left:0px;
+	margin-right:0px;
+	margin-top:0px;
+	padding:0px;
+	padding-top:0px;
+	padding-bottom:0px;
+	padding-left:0px;
+	padding-right:0px;
+	top:0xp;
+	white-space:0px;
+	}
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 180px;
+	text-align:left;
+	background-color: #FFFFFF;
+	}
+ul li {
+	position: relative;
+	background-color: #FFFFFF;
+	}
+li ul {
+	position: absolute;
+	left: 180px;
+	top: 0;
+	display: none;
+	border: 1px solid #CCCCCC;
+	border-bottom-width:1px;
+	border-bottom-color:#0066CC;
+	background-color: #FFFFFF;
+	}
+ul li a {
+	display: block;
+	text-decoration: none;
+	color: #777;
+	background-color: #FFFFFF;
+	padding: 5px;
+	border: 1px solid;
+	border-bottom-width:1 px;
+	border-bottom-color:#0066CC;
+	border-left-width:0 px;
+	border-right:0 px;
+	border-top-width:0 px;
+	border-left: 0px;
+	border-right: 0px;
+	border-top: 0px;
+	}
+
+li:hover #sub { display: block; }
+#sub li:hover #sub2 { display: block; }
